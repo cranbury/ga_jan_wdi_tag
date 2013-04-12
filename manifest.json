@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+
+  "name": "App Academy Chrome Tab",
+  "description": "Replace default tab page in Chrome with fancy App Academy links.",
+  "version": "1.0",
+
+  "chrome_url_overrides" : {
+    "newtab": "tab.html"
+  }
+}

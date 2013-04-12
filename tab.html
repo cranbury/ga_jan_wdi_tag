@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1000">
+  
+  <!--
+    Built by
+    Jonathan Tamboer / Mosodofu Studio
+    http://mosodofu.com
+  -->
+  
+  <title>App Academy</title>
+  <style>
+  
+  html, body, div, h1, h2, section, ul, li {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	outline: 0;
+  	font-size: 100%;
+  	font-weight: inherit;
+  	font-style: inherit;
+  	font-family: inherit;
+  	vertical-align: baseline;
+  	background: transparent;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 20px;
+    line-height: 1.5;
+  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #999;
+    background: #fff;
+  }
+  
+  #clock {
+    margin: 20px 0;
+    color: #ccc;
+    font-size: 160px;
+    line-height: 1.0;
+    text-align: center;
+  }
+  
+  #wrap {
+    margin: auto;
+    max-width: 1000px;
+  }
+  
+  #wrap:after {
+  	content: "";
+  	display: table;
+  }
+  
+  section {
+    display: block;
+    float: left;
+    padding: 0 40px;
+  }
+  
+  section:nth-of-type(1) h2 {
+    color: #f00;
+  }
+  
+  section:nth-of-type(2) h2 {
+    color: #0c0;
+  }
+  
+  section:nth-of-type(3) h2 {
+    color: #00f;
+  }
+  
+  section:nth-of-type(4) h2 {
+    color: #fa0;
+  }
+  
+  section:nth-of-type(5) h2 {
+    color: #840;
+  }
+  
+  ul {
+    margin: 0;
+    list-style: none;
+  }
+  
+  li {
+/*    max-width: 200px;*/
+  }
+  
+  a {
+    color: #999;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #00f;
+  }
+  
+  li > ul {
+    margin: 0 0 0 20px;
+  }
+  
+  li > ul > li {
+  }
+  
+  </style>
+</head>
+<body>
+  
+  <h1 id="clock">00:00</h1>
+  
+  <div id="wrap">
+  
+    <section>
+      <h2>App Academy</h2>
+      <ul>
+        <li><a href="https://github.com/appacademy/meta">Meta</a></li>
+        <li><a href="https://github.com/appacademy/ruby-solutions">Solutions</a></li>
+        <li><a href="https://github.com/appacademy/ruby-curriculum">Ruby</a></li>
+        <li><a href="https://github.com/appacademy/sql-curriculum">SQL</a></li>
+        <li><a href="https://github.com/appacademy/rails-curriculum">Rails</a></li>
+        <li><a href="https://github.com/appacademy/js-curriculum">JS</a></li>
+        <li><a href="https://github.com/appacademy/lightning-talks">Lightning</a></li>
+        <li><a href="https://github.com/appacademy-demos/">Demos</a></li>
+      </ul>
+    </section>
+  
+    <section>
+      <h2>Ruby</h2>
+      <ul>
+        <li>
+          <a href="http://ruby-doc.org/core-2.0/">API</a>
+          <ul>
+            <li><a href="http://ruby-doc.org/core-2.0/String.html">Object</a></li>
+            <li><a href="http://ruby-doc.org/core-2.0/String.html">String</a></li>
+            <li><a href="http://ruby-doc.org/core-2.0/Enumerable.html">Enumerable</a></li>
+            <li><a href="http://ruby-doc.org/core-2.0/Array.html">Array</a></li>
+            <li><a href="http://ruby-doc.org/core-2.0/Hash.html">Hash</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>Rails</h2>
+      <ul>
+        <li><a href="http://api.rubyonrails.org/">API</a></li>
+        <li>
+          <a href="http://guides.rubyonrails.org/">Guides</a>
+          <ul>
+            <li><a href="http://guides.rubyonrails.org/association_basics.html">Associate</li>
+            <li><a href="http://guides.rubyonrails.org/active_record_querying.html">Query</li>
+            <li><a href="http://guides.rubyonrails.org/active_record_validations_callbacks.html">Validate</li>
+            <li><a href="http://guides.rubyonrails.org/layouts_and_rendering.html">Render</li>
+            <li><a href="http://guides.rubyonrails.org/routing.html">Route</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+  
+    <section>
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="http://git-scm.com/docs">Git</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/JavaScript">JS</a></li>
+        <li><a href="http://api.jquery.com/">jQuery</a></li>
+        <li><a href="http://simon.html5.org/html5-elements">HTML</a></li>
+        <li><a href="http://www.w3.org/TR/CSS21/propidx.html">CSS 2.1</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference">CSS 3</a></li>
+        <li><a href="http://bourbon.io/docs/">Bourbon</a></li>
+        <li><a href="http://caniuse.com/">Can I Use</a></li>
+      </ul>
+    </section>
+  
+    <section>
+      <h2>Tools</h2>
+      <ul>
+        <li><a href="https://mail.google.com/mail/">Gmail</a></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <script src="tab.js"></script>
+</body>
