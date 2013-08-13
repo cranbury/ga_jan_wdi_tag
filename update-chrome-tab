@@ -1,8 +1,6 @@
 #!/bin/bash
 
 cd ~/app-academy-chrome-tab
-git pull
-
-echo "Updated App Academy Chrome Tab!"
+git pull --quiet
 
 exit 0
