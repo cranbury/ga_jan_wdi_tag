@@ -2,7 +2,6 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=1000">
 
   <!--
     Built by
@@ -10,114 +9,40 @@
     http://mosodofu.com
   -->
 
+  <link rel="stylesheet" href="css/type.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
   <title>App Academy</title>
-  <style>
-
-  html, body, div, h1, h2, section, ul, li {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    background: transparent;
-    box-sizing: border-box;
-  }
-
-  body {
-    font-size: 20px;
-    line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    color: #999;
-    background: #fff;
-  }
-
-  #clock {
-    margin: 20px 0;
-    color: #ccc;
-    font-size: 160px;
-    line-height: 1.0;
-    text-align: center;
-  }
-
-  #wrap {
-    margin: auto;
-    max-width: 1000px;
-  }
-
-  #wrap:after {
-    content: "";
-    display: table;
-  }
-
-  section {
-    display: block;
-    float: left;
-    padding: 0 40px;
-  }
-
-  section:nth-of-type(1) h2 {
-    color: #f00;
-  }
-
-  section:nth-of-type(2) h2 {
-    color: #0c0;
-  }
-
-  section:nth-of-type(3) h2 {
-    color: #00f;
-  }
-
-  section:nth-of-type(4) h2 {
-    color: #fa0;
-  }
-
-  section:nth-of-type(5) h2 {
-    color: #840;
-  }
-
-  ul {
-    margin: 0;
-    list-style: none;
-  }
-
-  li {
-  }
-
-  a {
-    color: #999;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: #00f;
-  }
-
-  li > ul {
-    margin: 0 0 0 20px;
-  }
-
-  li > ul > li {
-  }
-
-  </style>
 </head>
 <body>
 
+  <header class="group">
+    <h1 class="logo"><a href="http://www.appacademy.io/">App Academy</a></h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li class="nav-progress"><a href="http://aa-progress-tracker.herokuapp.com/">Progress</a></li>
+      <li class="nav-gmail"><a href="https://mail.google.com/mail/">Gmail</a></li>
+      <li class="nav-github"><a href="https://github.com/">Github</a></li>
+      <li class="nav-tumblr"><a href="https://www.tumblr.com/">Tumblr</a></li>
+    </ul>
+  </nav>
+
   <h1 id="clock">00:00</h1>
 
-  <div id="wrap">
+  <div id="info"></div>
+
+  <main class="group">
 
     <section>
-      <h2>App Academy</h2>
+      <h2>Curriculum</h2>
       <ul>
         <li><a href="https://github.com/appacademy/meta">Meta</a></li>
         <li><a href="https://github.com/appacademy/ruby-curriculum">Ruby</a></li>
         <li><a href="https://github.com/appacademy/sql-curriculum">SQL</a></li>
         <li><a href="https://github.com/appacademy/rails-curriculum">Rails</a></li>
         <li><a href="https://github.com/appacademy/js-curriculum">JS</a></li>
+        <li><a href="https://github.com/appacademy/css-curriculum">CSS</a></li>
         <li><a href="https://github.com/appacademy/lightning-talks">Lightning</a></li>
         <li><a href="https://github.com/appacademy/algorithms-curriculum">Algorithms</a></li>
         <li><a href="https://github.com/appacademy/post-course-curriculum">Jobs</a></li>
@@ -166,30 +91,29 @@
       <ul>
         <li><a href="http://git-scm.com/docs">Git</a></li>
         <li><a href="https://developer.mozilla.org/en-US/docs/JavaScript">JS</a></li>
+        <li><a href="http://underscore.org/">Underscore</a></li>
         <li><a href="http://api.jquery.com/">jQuery</a></li>
         <li><a href="http://backbonejs.org/">Backbone</a></li>
-        <li><a href="http://simon.html5.org/html5-elements">HTML</a></li>
+        <li><a href="http://simon.html5.org/html5-elements">HTML (what)</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_element_list">HTML (mdn)</a></li>
         <li><a href="http://www.w3.org/TR/CSS21/propidx.html">CSS 2.1</a></li>
         <li><a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference">CSS 3</a></li>
+        <li><a href="http://validator.w3.org/">W3 Validator</a></li>
         <li><a href="http://bourbon.io/docs/">Bourbon</a></li>
         <li><a href="http://caniuse.com/">Can I Use</a></li>
+        <li><a href="http://css-tricks.com/almanac/">Tricks</a></li>
       </ul>
     </section>
 
-    <section>
-      <h2>Tools</h2>
-      <ul>
-        <li><a href="http://localhost:3000/">Localhost</a></li>
-        <li><a href="http://aa-progress-tracker.herokuapp.com/">Progress</a></li>
-        <li><a href="https://mail.google.com/mail/">Gmail</a></li>
-        <li><a href="https://github.com/">Github</a></li>
-        <li><a href="https://www.tumblr.com/">Tumblr</a></li>
-        <li><a href="http://www.timetimeti.me/">Timer</a></li>
-      </ul>
-    </section>
+  </main>
 
-  </div>
+  <h3 class="localhost"><a href="http://localhost:3000/">Localhost:3000</a></h3>
 
-  <script src="tab.js"></script>
+  <footer>
+    <a href="options.html">Options</a>
+  </footer>
+
+  <script src="js/jquery-2.1.0.min.js"></script>
+  <script src="js/tab.js"></script>
 </body>
 </html>

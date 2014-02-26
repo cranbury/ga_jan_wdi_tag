@@ -1,0 +1,248 @@
+html, body, div, h1, h2, section, ul,
+li, a, form, input, button, img, strong,
+header, footer, main, nav, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+  color: inherit;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+label {
+  display: block;
+}
+
+body {
+  font-size: 18px;
+  line-height: 1.0;
+  font-family: "Inconsolata", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+  background: #fff;
+}
+
+h1, h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  background: #f00;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo a {
+  display: block;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 25px;
+  color: #fff;
+}
+
+nav a {
+  position: fixed;
+  display: block;
+  padding: 5px 10px;
+  border: 3px solid #222;
+  font-weight: 700;
+}
+
+nav a:hover {
+  color: #00f;
+  border-color: #00f;
+}
+
+.nav-progress > a {
+  top: 80px;
+  right: 20px;
+}
+
+.nav-gmail > a {
+  bottom: 20px;
+  right: 20px;
+}
+
+.nav-github > a {
+  bottom: 20px;
+  left: 20px;
+}
+
+.nav-tumblr > a {
+  top: 80px;
+  left: 20px;
+}
+
+#clock {
+  margin: 50px 0 0 0;
+  padding: 0 0 15px 0;
+  font-size: 160px;
+  text-align: center;
+}
+
+#info {
+  text-align: center;
+}
+
+#info p {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff0;
+}
+
+#info strong {
+  font-weight: 700;
+}
+
+#info a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#info a:hover {
+  text-decoration: none;
+}
+
+main {
+  margin: auto;
+  padding: 35px 0 0 0;
+  max-width: 800px;
+}
+
+section {
+  display: block;
+  float: left;
+  padding: 0 40px;
+}
+
+section h2 {
+  color: #00f;
+}
+
+section li > ul {
+  margin: 0 0 0 20px;
+}
+
+section li a {
+  position: relative;
+  left: -5px;
+  display: inline-block;
+  padding: 5px;
+}
+
+section li a:hover {
+  background: #ff0;
+}
+
+.localhost {
+  text-align: center;
+}
+
+.localhost a {
+  position: relative;
+  top: -80px;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff;
+  background: #0c0;
+}
+
+.localhost a:hover {
+  background: #0b0;
+}
+
+footer a {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  margin: 0 0 0 -20px;
+  padding: 40px 0 0 0;
+  width: 40px;
+  height: 0;
+  overflow: hidden;
+  background: url("../img/app-academy-logo-black.png") no-repeat 0 0;
+  background-size: 40px;
+}
+
+form {
+  margin: 50px auto;
+  width: 300px;
+}
+
+form h1 {
+  margin: 0 0 30px 0;
+  font-size: 60px;
+}
+
+form #info {
+  display: none;
+  text-align: left;
+}
+
+form #info.show {
+  display: block;
+}
+
+.input {
+  margin: 30px 0;
+}
+
+.input label {
+  font-weight: 700;
+  padding: 0 0 5px 0;
+}
+
+.input input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 300px;
+  font-size: 20px;
+}
+
+.submit {
+  margin: 40px 0;
+}
+
+.submit button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff;
+  background: #0c0;
+  font-weight: 700;
+}
+
+.submit button:hover {
+  background: #0b0;
+}
