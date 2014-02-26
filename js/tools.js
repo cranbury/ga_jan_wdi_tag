@@ -7,7 +7,7 @@ $(document).ready(function(){
     "position": "fixed",
     "bottom": "10px",
     "right": "10px",
-    "-webkit-transform", "rotate(90deg)"
+    "-webkit-transform": "rotate(90deg)"
   });
 
   $("body").append($html);

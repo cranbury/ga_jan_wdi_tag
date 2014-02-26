@@ -6,7 +6,7 @@
   "chrome_url_overrides" : {
     "newtab": "tab.html"
   },
-  "permissions": ["tabs", "*://aa-progress-tracker.herokuapp.com/*", "*://*.appacademy.io/*"],
+  "permissions": ["tabs", "http://aa-progress-tracker.herokuapp.com/", "http://*.appacademy.io/"],
   "content_scripts": [
     {
       "matches": ["*://aa-progress-tracker.herokuapp.com/*", "*://*.appacademy.io/*"],

@@ -71,7 +71,7 @@ $(document).ready(function(){
       displayPairs(JSON.parse(localStorage[Key("day")]));
     } else {
 
-      $.getJSON("http://localhost:3000/api/pairs.json", function(data){
+      $.getJSON("http://aa-progress-tracker.herokuapp.com/api/pairs.json", function(data){
         console.log(data);
 
         localStorage[Key("day")] = JSON.stringify(data);
