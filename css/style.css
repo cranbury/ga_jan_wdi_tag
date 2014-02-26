@@ -54,8 +54,10 @@ h1, h2 {
 }
 
 header {
+  position: relative;
   background: #f00;
   text-align: center;
+  z-index: 2;
 }
 
 .logo {
@@ -76,6 +78,7 @@ nav a {
   padding: 5px 10px;
   border: 3px solid #222;
   font-weight: 700;
+  z-index: 1;
 }
 
 nav a:hover {
