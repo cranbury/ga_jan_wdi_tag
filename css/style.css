@@ -64,7 +64,7 @@ header {
 
 .logo a {
   display: block;
-  padding: 20px;
+  padding: 15px;
   font-weight: 400;
   font-size: 25px;
   color: #fff;
@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 .nav-progress > a {
-  top: 80px;
+  top: 70px;
   right: 20px;
 }
 
@@ -99,12 +99,20 @@ nav a:hover {
 }
 
 .nav-tumblr > a {
-  top: 80px;
+  top: 70px;
   left: 20px;
 }
 
+.wrap {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -285px;
+  width: 1000px;
+}
+
 #clock {
-  margin: 50px 0 0 0;
   padding: 0 0 15px 0;
   font-size: 160px;
   text-align: center;
@@ -136,13 +144,17 @@ nav a:hover {
 main {
   margin: auto;
   padding: 35px 0 0 0;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 section {
   display: block;
   float: left;
-  padding: 0 40px;
+  padding: 0 25px;
+}
+
+section:first-child {
+  padding: 0 25px 0 60px;
 }
 
 section h2 {
@@ -170,7 +182,7 @@ section li a:hover {
 
 .localhost a {
   position: relative;
-  top: -80px;
+  top: -15px;
   display: inline-block;
   padding: 15px 30px;
   color: #fff;
