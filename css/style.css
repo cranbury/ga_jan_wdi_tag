@@ -37,13 +37,13 @@ label {
 body {
   font-size: 18px;
   line-height: 1.0;
-  font-family: "Inconsolata", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lucida Console", Monaco, monospace;
   color: #222;
-  background: #fff;
+  background: #eee;
 }
 
 h1, h2 {
-  font-family: "Montserrat";
+  font-family: "Lucida Console";
   font-weight: 700;
 }
 
@@ -55,7 +55,7 @@ h1, h2 {
 
 header {
   position: relative;
-  background: #f00;
+  background: black;
   text-align: center;
   z-index: 2;
 }
@@ -82,27 +82,27 @@ nav a {
 }
 
 nav a:hover {
-  color: #00f;
-  border-color: #00f;
+  color: #8A2E36;
+  border-color: #8A2E36;
 }
 
-.nav-progress > a {
-  top: 70px;
-  right: 20px;
-}
-
-.nav-gmail > a {
-  bottom: 20px;
-  right: 20px;
-}
-
-.nav-github > a {
-  bottom: 20px;
+.nav-stack > a {
+  top: 500px;
   left: 20px;
 }
 
-.nav-tumblr > a {
+.nav-gmail > a {
+  bottom: 500px;
+  left: 20px;
+}
+
+.nav-github > a {
   top: 70px;
+  left: 20px;
+}
+
+.nav-medium > a {
+  bottom: 20px;  
   left: 20px;
 }
 
@@ -161,7 +161,7 @@ section:first-child {
 }
 
 section h2 {
-  color: #00f;
+  color: red;
 }
 
 section li > ul {
@@ -176,7 +176,7 @@ section li a {
 }
 
 section li a:hover {
-  background: #ff0;
+  background: #E3ABAE;
 }
 
 .localhost {
@@ -188,12 +188,13 @@ section li a:hover {
   top: -15px;
   display: inline-block;
   padding: 15px 30px;
-  color: #fff;
-  background: #0c0;
+  color: white;
+  background: black;
+  border-radius: 15px;
 }
 
 .localhost a:hover {
-  background: #0b0;
+  background: red;
 }
 
 footer a {
@@ -206,7 +207,7 @@ footer a {
   width: 40px;
   height: 0;
   overflow: hidden;
-  background: url("../img/app-academy-logo-black.png") no-repeat 0 0;
+  background: url("../img/ga-white.png") no-repeat 0 0;
   background-size: 40px;
 }
 

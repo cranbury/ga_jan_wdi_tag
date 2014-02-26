@@ -1,6 +1,6 @@
-# App Academy Chrome Tab
+# GA Chrome Tab
 
-This is a browser extension to open a new tab with a page of links to commonly used resources, as well as App Academy repos.
+This is a browser extension to open a new tab with a page of links to commonly used resources.
 
 ## Installation
 
