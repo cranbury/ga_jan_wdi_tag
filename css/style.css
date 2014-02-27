@@ -92,13 +92,13 @@ nav a:hover {
 }
 
 .nav-gmail > a {
-  bottom: 500px;
+  top: 70px;
   left: 20px;
 }
 
 .nav-github > a {
   top: 70px;
-  left: 20px;
+  right: 20px;
 }
 
 .nav-medium > a {
