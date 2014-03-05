@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "GA WDI Tab",
+  "description": "Replace default tab page in Chrome with GA WDI links.",
+  "version": "1.0",
+  "chrome_url_overrides" : {
+    "newtab": "tab.html"
+  },
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["js/jquery-2.1.0.min.js", "js/tools.js"]
+    }
+  ]
+
+}

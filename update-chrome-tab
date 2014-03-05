@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd ~/app-academy-chrome-tab
+git pull --quiet
+
+exit 0
