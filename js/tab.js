@@ -38,7 +38,7 @@ $(document).ready(function(){
       
       var diffDays = days_between(firstDate, secondDate);
 
-      var week = Math.round(diffDays/7 + 1);
+      var week = Math.floor(diffDays/7 + 1);
       var day = diffDays%7 + 1;
 
       var weekDay = "W" + week +" D" + day;
